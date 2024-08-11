@@ -71,3 +71,18 @@ p {
   line-height: 27px;
   padding: 18px 30px;
 }
+
+img {
+  height: 560px;
+}
+
+.project-description {
+  padding: 0 60px;
+}
+
+@media (max-width: 960px) {
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
+}
