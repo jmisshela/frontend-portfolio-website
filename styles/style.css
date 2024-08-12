@@ -54,6 +54,25 @@ p {
   color: #272142;
 }
 
+.about-hero {
+  padding: 160px 20px;
+}
+
+.about-hero h1 {
+  font-size: 64px;
+  line-height: 85px;
+}
+
+.about-hero h2 {
+  font-family: var(--default-font-family);
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.about-hero-content {
+  margin: 30px;
+}
+
 .btn-branding {
   background-color: var(--branding-color);
   color: white;
@@ -72,9 +91,9 @@ p {
   padding: 18px 30px;
 }
 
-img {
+/*img {
   height: 560px;
-}
+}*/
 
 .project-description {
   padding: 0 60px;
@@ -105,5 +124,10 @@ img {
   .project-description {
     padding: 0;
     text-align: center;
+  }
+
+  .about-hero {
+    text-align: center;
+    padding: 0;
   }
 }
